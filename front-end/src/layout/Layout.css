@@ -1,0 +1,101 @@
+body {
+  background-color: #fff;
+  margin: 0;
+}
+
+main {
+  margin: 0 0 1rem 0;
+}
+
+td {
+  width: 100vw;
+}
+
+.side-bar {
+  background-color: #393a44;
+  width: 100vw;
+  min-width: 200px;
+}
+
+.container {
+  margin: 0 0 2rem 0;
+}
+
+.table {
+  overflow: auto;
+  display: block;
+}
+
+.page-title {
+  margin: 2rem 0;
+  font-size: 1.8rem;
+}
+
+.label {
+  font-size: 1.2rem;
+}
+
+.form-input {
+  margin-bottom: 0.2rem;
+  width: 100%;
+}
+
+.btn-submit {
+  width: 100%;
+  margin: 0.4em 0;
+}
+
+.btn-container {
+  margin-top: 2rem;
+}
+
+.btn-group {
+  width: 100%;
+}
+
+.btn-dashboard {
+  width: 100%;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+}
+
+@media all and (min-width: 700px) {
+  .side-bar {
+    min-height: 100vh;
+    min-width: 200px;
+    color: #fff;
+  }
+
+  .page-title {
+    margin: 1rem 0;
+    font-size: 2.2rem;
+  }
+
+  .table {
+    width: 75vw;
+  }
+
+  .label {
+    font-size: 1.2rem;
+  }
+
+  .form-input {
+    width: 60%;
+  }
+
+  .btn-submit {
+    width: 60%;
+  }
+
+  .btn-group {
+    width: 50%;
+  }
+
+  .btn-dashboard {
+    width: 15%;
+    margin: 0 auto;
+  }
+}
